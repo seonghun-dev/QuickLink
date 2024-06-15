@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: quicklink
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3316/quicklink
+    username: root
+    password: root
+server:
+  nodeId: 1
+  port: 8192

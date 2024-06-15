@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer p {
+    color: #919294;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #919294;
+}

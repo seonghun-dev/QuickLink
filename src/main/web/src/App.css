@@ -1,0 +1,114 @@
+.App {
+    text-align: center;
+}
+
+
+.App-header {
+    background-color: #0E121B;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
+}
+
+.App-content {
+    z-index: 1;
+}
+
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Pretendard, serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.input-container {
+    margin-top: 3rem;
+    border-radius: 16px;
+    background: #161B28;
+    flex-shrink: 0;
+    width: 700px;
+}
+
+.url-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem;
+    width: 75%;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.shorten-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    background: rgba(237, 237, 255, 0.10);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.result-container {
+    border-radius: 16px;
+    background: #161B28;
+    width: 700px;
+    margin-top: 3rem;
+    text-size-adjust: auto;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.result-highlight {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.result-info {
+    color: #8A8A8A;
+
+}
+
+.background-circle {
+    width: 500px;
+    height: 500px;
+    transform: rotate(-165deg);
+    flex-shrink: 0;
+    border-radius: 500px;
+    background: linear-gradient(180deg, rgba(252, 182, 228, 0.00) 36.5%, rgba(252, 182, 228, 0.25) 100%);
+    filter: blur(20px);
+    position: absolute;
+    top: 20%;
+    z-index: 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
